@@ -3,10 +3,11 @@ layout: default
 title: Home
 ---
 
-# Hello
+# WRIT 1301 — F1 Sustainability
 
-This site uses the Cayman theme. Edit this file to change the home page content.
+If you see this, Jekyll is rendering your Markdown with the **Architect** theme.
 
-- Pages auto-wrap with the theme layout.
-- Write Markdown; Jekyll builds HTML.
+- Go to [Leonard]({{ site.baseurl }}/leonard)
+- Go to [Karli]({{ site.baseurl }}/karli)
+- Go to [Thomas]({{ site.baseurl }}/thomas)
 
