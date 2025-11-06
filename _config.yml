@@ -1,0 +1,11 @@
+title: Formula 1 Racing: The Long Road to Sustainability
+description: F1 Sustainability Research
+
+url: "https://maniacurgency42.github.io"
+baseurl: "/writ1301.github.io"
+
+
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
