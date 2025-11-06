@@ -8,6 +8,8 @@ permalink: /leonard/
 
 ## Leonard
 
+![Diagram of F1 hybrid powertrain](assets/Motor-Generator-Unit-Diagram.jpg)
+
 My focus is how F1’s next-gen hybrid powertrain (engine + electric system) will work with 100% “drop-in” sustainable fuel (synthetic fuel that can run in existing engine designs), while staying fast and reliable. My three main sub-topics:
 
 1. Hybrid integration: how the internal combustion engine (ICE) and electric side (battery, MGU-K motor on the crankshaft for braking energy, and MGU-H on the turbo for exhaust energy) share power and when.
