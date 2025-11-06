@@ -7,7 +7,7 @@ title: Home
 
 If you see this, Jekyll is rendering your Markdown with the **Architect** theme.
 
-- Go to [Leonard]({{ site.baseurl }}/leonard)
-- Go to [Karli]({{ site.baseurl }}/karli)
-- Go to [Thomas]({{ site.baseurl }}/thomas)
+- [Leonard]({{ site.baseurl }}/leonard)
+- [Karli]({{ site.baseurl }}/karli)
+- [Thomas]({{ site.baseurl }}/thomas)
 
