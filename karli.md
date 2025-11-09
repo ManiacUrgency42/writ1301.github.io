@@ -4,7 +4,7 @@ title: Karli
 permalink: /karli/
 ---
 
-## Karli
+# Sustainability for Formula 1's Regional Logistics
 
-Content for Karli’s page.
+Currently, Formula 1 uses trucks to ship supplies on short trips 
 
