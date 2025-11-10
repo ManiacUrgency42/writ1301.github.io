@@ -15,13 +15,18 @@ While there are clear benefits with using a biofuel trucks over diesel, they sti
 ![route map](assets/IMG_0707.JPG)
 
 Bologna-Zandvort-Bologna (red)
+
 Bologna-Monaco-Bologna (yellow)
+
 Bologna-Silverstone-Bologna (blue)
+
 Bologna-Spa Francorchamps-Bologna (green)
+
 Bologna-Imola-Barcelona-Budapest-Monza-Bologna (orange)
 
 # Results of the Comparison
 ![comparison](assets/IMG_0708.JPG)
 While the cost of using rail for the European part of the European schedule is about 15% more, the use of rail logistics would reduce carbon emissions by about half. This is an option which F1 will have to explore if they plan to reach their Net Zero by 2030 pledge. F1 has proven that they are interested in using trains for logistics, not in Europe but America, to bring equipment from Miami to Montreal for the Canadian Grand Prix. Time will tell if we see car chassis and Pirreli tyres travelling next to mattresses and computer parts on three mile long intermodal trains.
+
 Contributed by Kārli Barobs
 
