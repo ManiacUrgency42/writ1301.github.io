@@ -43,4 +43,5 @@ Avoid increasing transportation cost, and may even reduce expenses slightly.
 
 Support the Net Zero 2030 target in a measurable and achievable way.
 
+
 Reducing engine emissions alone is not enough for F1 to reach its Net Zero goal. Transforming logistics—specifically by replacing long-distance air freight with low-emission sea freight—offers one of the largest and most practical carbon reductions available. With planning and equipment rotation, this change can be made without reducing the number of races.
