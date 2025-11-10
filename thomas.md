@@ -18,3 +18,29 @@ Air freight produces much higher CO₂ emissions per tonne-kilometer than sea fr
 
 While sea freight is slower, it is generally equal in cost or slightly cheaper compared to air transportation.
 If Formula 1 uses a rotating equipment system (one set racing, one set shipping, one set preparing), the slower shipping time does not affect the race calendar.
+
+# Rotational Equipment Strategy
+
+To maintain race timing while using slower but cleaner shipping, F1 could divide equipment into three sets:
+
+Set A is used at the current race.
+
+Set B is already being shipped by sea to the next continent.
+
+Set C is being serviced and prepared at the factory.
+
+By constantly rotating these sets, the championship can operate normally, while aviation usage is reduced.
+
+# Why This Matters
+
+Shifting overseas logistics to sea freight would:
+
+Significantly reduce emissions related to transportation.
+
+Maintain the same race schedule without delays.
+
+Avoid increasing transportation cost, and may even reduce expenses slightly.
+
+Support the Net Zero 2030 target in a measurable and achievable way.
+
+Reducing engine emissions alone is not enough for F1 to reach its Net Zero goal. Transforming logistics—specifically by replacing long-distance air freight with low-emission sea freight—offers one of the largest and most practical carbon reductions available. With planning and equipment rotation, this change can be made without reducing the number of races.
