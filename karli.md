@@ -13,6 +13,7 @@ Currently, Formula 1 uses trucks to ship supplies on short trips between races. 
 
 While there are clear benefits with using a biofuel trucks over diesel, they still suffer from the key inefficiency any road vehicle has; it can only carry one trailer. A study by Martina Maria Petralia and Dr. Letizia Tebaldi of Parma University explores a hypothetical future where trains are used for team logistics during the European schedule. This hypothetical logistics system where rail and road are combined is compared with the current road based system in cost and carbon footprint, measured in tonnes of carbon dioxide equivalent (tCO2e), a measure of an emission's relative impact on climate change. The paper makes a sample logistics schedule using the Scuderia Ferrari HP team as an example:
 ![route map](assets/IMG_0707.JPG)
+
 Bologna-Zandvort-Bologna (red)
 Bologna-Monaco-Bologna (yellow)
 Bologna-Silverstone-Bologna (blue)
