@@ -11,3 +11,4 @@ If you see this, Jekyll is rendering your Markdown with the **Architect** theme.
 - [Karli]({{ site.baseurl }}/karli)
 - [Thomas]({{ site.baseurl }}/thomas)
 
+- [Sources]({{ site.baseurl }}/sources)
