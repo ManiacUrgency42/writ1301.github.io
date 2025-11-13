@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-# WRIT 1301 — F1 Sustainability
+# WRIT 1301 — Formula 1 Racing Sustainability
 
-If you see this, Jekyll is rendering your Markdown with the **Architect** theme.
+Jekyll is rendering Markdown with the Github **Architect** theme.
 
 - [Leonard]({{ site.baseurl }}/leonard)
 - [Karli]({{ site.baseurl }}/karli)
