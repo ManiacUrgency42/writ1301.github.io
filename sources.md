@@ -16,3 +16,6 @@ Petralia, Martina Maria, Dr. Tebaldi, Letizia, 7/29/2025, From Road Transport to
 
 ## Thomas
 
+DHL Group. (2024). DHL and Formula 1 take flight with sustainable aviation fuel. https://group.dhl.com/en/media-relations/press-releases/2024/dhl-and-formula-1-take-flight-with-sustainable-aviation-fuel.html
+
+Seatrade Maritime. (2024). Sustainable marine fuels: The next phase for Formula 1 logistics. https://www.seatrade-maritime.com/maritime-logistics/sustainable-marine-fuels-the-next-phase-for-formula-1-logistics
