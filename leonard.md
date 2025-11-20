@@ -26,7 +26,7 @@ This page walks through the main design challenges explained in **plain English*
 
 <!-- Diagram of an F1 car V6 powertrain with labels from: https://global.honda/en/tech/motorsports/Formula-1/Powertrain_V6_power_unit/-->
 
-![Cool Sketch of Mercedes Car from Mercedes-AMG Petronas F1 Team](/assets/img/tech-transfer.png)
+![Cool Sketch of Mercedes Car from Mercedes-AMG Petronas F1 Team](/assets/Cool-Mercedes-F1-Car-Sketch.jpg)
 
 ---
 
@@ -80,7 +80,7 @@ That means the electric side is no longer just “extra boost” – it’s half
 
 ---
 
-![F1 V6 powertrain diagram with labels](/assets/V6-Powertrain.png)
+![F1 V6 powertrain diagram with labels](/assets/V6-Powertrain.jpg)
 
 ---
 
@@ -132,8 +132,6 @@ So the “green fuel” question is really:
 > “Can we make fuel that’s friendly to the planet **and** friendly to a tiny, screaming 15,000 rpm engine?”
 
 ---
-
-![Sustainable fuel lifecycle](/assets/img/fuel-lifecycle.png)
 
 ---
 
@@ -563,10 +561,6 @@ The engineering question is:
 > “Can we design a powertrain that helps the planet **and** still scares the driver a little on every lap?”
 
 ---
-
-<!-- INSERT IMAGE: System interaction map -->
-
-![Powertrain system interactions](/assets/img/system-interactions.png)
 
 ---
 
