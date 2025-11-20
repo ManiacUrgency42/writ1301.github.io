@@ -80,11 +80,7 @@ That means the electric side is no longer just “extra boost” – it’s half
 
 ---
 
-<!-- INSERT IMAGE: Simple block diagram of power flows -->
-
 ![F1 hybrid powertrain blocks](/assets/img/powertrain-block-diagram.png)
-
-*Fuel and electricity both take different paths, but all roads lead to the rear wheels.*
 
 ---
 
