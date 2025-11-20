@@ -26,7 +26,7 @@ This page walks through the main design challenges explained in **plain English*
 
 <!-- Diagram of an F1 car V6 powertrain with labels from: https://global.honda/en/tech/motorsports/Formula-1/Powertrain_V6_power_unit/-->
 
-![F1 V6 powertrain diagram with labels](/assets/V6-Powertrain.png)
+![Cool Sketch of Mercedes Car from Mercedes-AMG Petronas F1 Team](/assets/img/tech-transfer.png)
 
 ---
 
@@ -80,7 +80,7 @@ That means the electric side is no longer just “extra boost” – it’s half
 
 ---
 
-![F1 hybrid powertrain blocks](/assets/img/powertrain-block-diagram.png)
+![F1 V6 powertrain diagram with labels](/assets/V6-Powertrain.png)
 
 ---
 
@@ -132,8 +132,6 @@ So the “green fuel” question is really:
 > “Can we make fuel that’s friendly to the planet **and** friendly to a tiny, screaming 15,000 rpm engine?”
 
 ---
-
-<!-- INSERT IMAGE: Fuel lifecycle loop -->
 
 ![Sustainable fuel lifecycle](/assets/img/fuel-lifecycle.png)
 
@@ -218,9 +216,7 @@ A few ways to mess this up:
 
 <!-- INSERT IMAGE: One-lap energy diagram -->
 
-![Lap energy usage](/assets/img/lap-energy-usage.png)
-
-*Different parts of the lap: sometimes you save, sometimes you spend, sometimes you charge.*
+![F1 hybrid powertrain blocks](/assets/ERS-Austria-Qualifying-Lap.jpg)
 
 ---
 
@@ -618,14 +614,9 @@ So “net-zero and fast” is:
 - Not magically solved.
 - A **huge optimization problem** across technology, cost, and rules.
 
-What’s cool is that:
+The same tools F1 uses to shave tenths off a lap — simulations, control algorithms, energy models — are the tools we need to squeeze waste out of the whole energy system.
 
-> The same tools F1 uses to shave tenths off a lap — simulations, control algorithms, energy models — are the tools we need to squeeze waste out of the whole energy system.
 
----
 
-<!-- INSERT IMAGE: Tech transfer from F1 to the world -->
-
-![Cool Sketch of Mercedes Car from Mercedes-AMG Petronas F1 Team](/assets/img/tech-transfer.png)
 
 
