@@ -24,10 +24,10 @@ This page walks through the main design challenges explained in **plain English*
 
 ---
 
-<!-- Diagram of an F1 car V6 powertrain with labels from: https://global.honda/en/tech/motorsports/Formula-1/Powertrain_V6_power_unit/-->
 
 ![Cool Sketch of Mercedes Car from Mercedes-AMG Petronas F1 Team](/assets/Cool-Mercedes-F1-Car-Sketch.jpg)
 
+> Sketch of the F1 Mercedes-AMG from official Mercedes-AMG social media page
 ---
 
 ## 1. What Is an F1 Powertrain?
@@ -82,6 +82,7 @@ That means the electric side is no longer just “extra boost” – it’s half
 
 ![F1 V6 powertrain diagram with labels](/assets/V6-Powertrain.jpg)
 
+> V6 Powertrain by Honda
 ---
 
 ## 2. What “Net-Zero” and “Drop-In Sustainable Fuel” Actually Mean
@@ -212,9 +213,10 @@ A few ways to mess this up:
 
 ---
 
-<!-- INSERT IMAGE: One-lap energy diagram -->
 
 ![F1 hybrid powertrain blocks](/assets/ERS-Austria-Qualifying-Lap.jpg)
+
+> Energy Recovery of Austria Qualifying Lap
 
 ---
 
@@ -295,12 +297,6 @@ Symptoms of bad thermal management:
 - In worst cases: **DNF** (engine/battery failure) and millions of dollars go poof.
 
 ---
-
-<!-- INSERT IMAGE: Heat map and air paths -->
-
-![Thermal hot spots and cooling airflow](/assets/img/thermal-map.png)
-
-*Red: hot zones (engine, exhaust, battery). Blue: cooling air paths. You want maximum cooling for minimum drag.*
 
 ---
 
