@@ -134,7 +134,6 @@ So the “green fuel” question is really:
 
 ---
 
----
 
 ## 3. Design Challenge #1 – Hybrid Integration: Sharing Power Without Chaos
 
@@ -298,7 +297,6 @@ Symptoms of bad thermal management:
 
 ---
 
----
 
 ## 5. Design Challenge #3 – Energy Recovery: Recycling Speed
 
@@ -554,8 +552,6 @@ You can think of three big sliders:
 The engineering question is:
 
 > “Can we design a powertrain that helps the planet **and** still scares the driver a little on every lap?”
-
----
 
 ---
 
