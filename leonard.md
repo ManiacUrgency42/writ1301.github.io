@@ -109,16 +109,15 @@ For the **powertrain**, that means:
 
 “**Drop-in**” means the fuel:
 
-- Can be **used in normal-style engines** with only small tweaks.
+- Can be **used in normal-style gasoline engines** with only small tweaks.
 - Can flow through **existing fuel distribution** systems (tanks, pipes, trucks). :contentReference[oaicite:2]{index=2}  
 
-Where can this carbon-neutral-ish fuel come from?
+Where can this carbon-neutral fuel come from?
 
 - **Captured CO₂** from the air or industrial fumes.
 - **Waste biomass** (like leftovers from farming, not food crops).
 - **Municipal waste** (garbage that would otherwise rot or be burned). :contentReference[oaicite:3]{index=3}  
 
-The key idea:  
 The CO₂ that comes out the **exhaust** was already in the atmosphere or waste stream recently, so you’re not adding new CO₂ from underground oil.
 
 ### 2.3 Why fuel makes engineers sweat
@@ -143,8 +142,6 @@ So the “green fuel” question is really:
 <!-- INSERT IMAGE: Fuel lifecycle loop -->
 
 ![Sustainable fuel lifecycle](/assets/img/fuel-lifecycle.png)
-
-*The dream: carbon goes in a loop, not from deep underground into the sky forever.*
 
 ---
 
@@ -203,12 +200,11 @@ With ~50% electric:
 - You **cannot** reach full performance without using the electric side properly.
 - Energy management becomes as important as classical engine tuning.
 
-This creates real trade-offs:
+This era also adds a new element: **manual electric boost** for the driver.
 
-- **Simple control strategy** → easier to design, more reliable, but probably slower.
-- **Aggressive, complex strategy** → faster on paper, but more fragile and harder to get right.
+Under the new rules, the driver can activate a temporary, extra-power electric “overtake” mode. This gives a burst of acceleration for defending or attacking another car. However, the driver does not directly control how much power comes from the battery — they only request it. The car’s control system still decides the exact power flow to protect the battery, manage temperature, and stay within regulations.
 
-### 3.4 Trade-offs and “how to screw it up”
+### 3.4 Trade-offs
 
 A few ways to mess this up:
 
@@ -223,10 +219,6 @@ A few ways to mess this up:
 - **Conservative strategy**  
   - You keep plenty of energy in the battery.
   - But you’re leaving free lap time on the table.
-
-Good hybrid integration is basically:
-
-> “Turn the car into a well-timed sprint, not an energy panic attack.”
 
 ---
 
@@ -263,7 +255,7 @@ Heat sources include:
 - **Power electronics** – inverters, DC-DC converters.
 - **Brakes** – kinetic energy turned into heat at the discs.
 
-### 4.2 Cooling without murdering speed
+### 4.2 Cooling without sacrificing speed
 
 To remove heat, you need:
 
@@ -275,14 +267,10 @@ The catch:
 - More air → **more drag** → slower on straights.
 - Bigger radiators → **more weight and more space** → harder packaging.
 
-So teams are constantly trading off:
-
-> Cool enough to survive ⟷ Slippery enough to win.
-
-### 4.3 New headaches with more electric + new fuel
+### 4.3 New challenges with more electric + new fuel
 
 - More **electric power** → more **battery current** → more battery heat.
-- More **regen** → more hot brakes, more hot MGU-K, more hot electronics.
+- More **regenerative breaking** → more hot brakes, more hot MGU-K, more hot electronics.
 - **Sustainable fuel** may change:
   - Exhaust temperature.
   - How heat is distributed between engine, turbo, and exhaust. :contentReference[oaicite:5]{index=5}  
@@ -313,9 +301,9 @@ You can’t maximize all three. Typical trade-offs:
 
 Symptoms of bad thermal management:
 
-- Driver gets messages like “cool the car” → must lift off and coast.
+- Driver gets messages like “cool the car” → must lift off the throttle and coast.
 - Engine power gets reduced automatically to protect hardware.
-- Battery temp goes high → power output or regen gets limited.
+- Battery temp goes high → power output or regenerative breaking gets limited.
 - In worst cases: **DNF** (engine/battery failure) and millions of dollars go poof.
 
 ---
@@ -330,84 +318,175 @@ Symptoms of bad thermal management:
 
 ## 5. Design Challenge #3 – Energy Recovery: Recycling Speed
 
-When you brake a normal car, you turn kinetic energy into **useless heat** in the brakes.
+Before talking about batteries or motors, here is the simple physical idea.
 
-In F1, part of that “wasted” energy is **recycled**:
+When any car slows down, it is throwing away energy.
 
-- **MGU-K** grabs some energy during braking and sends it to the **battery**.
-- Historically **MGU-H** could grab energy from the hot exhaust and send it either:
-  - to the **battery**, or
-  - **directly** to MGU-K, skipping the battery and saving some losses. :contentReference[oaicite:6]{index=6}  
+That moving car contains **kinetic energy** (the energy of motion). In a normal car, braking turns almost all of that energy into **useless heat** in the brake pads and rotors.
 
-This is like charging a power bank every time you slow down, then using it to slingshot yourself out of corners.
+Formula 1 tries to steal some of that “wasted” energy back.
 
-### 5.1 How much energy can you actually recover?
+It does this using an electric machine that can work in reverse.
+
+### 5.1 What is regenerative braking? 
+
+An electric motor can also act as a **generator**.
+
+- As a motor → it uses electricity to spin the wheels.
+- As a generator → it resists the wheels and creates electricity.
+
+So when the driver hits the brakes, part of the braking force in an F1 car does NOT come from brake pads.
+
+Instead, it comes from the electric motor “pushing back” against the wheels and turning that motion into **stored electrical energy in the battery**.
+
+This is called **regenerative braking (regen)**.
+
+Think of it like: Instead of grinding away speed as heat, the car is trying to store that speed for later.
+
+---
+
+### 5.2 The critical problem: regen acts on the REAR wheels only
+
+The regenerative motor (called the **MGU-K**) is connected to the engine and drivetrain, which drive the **rear wheels**.
+
+That means:
+- Front wheels: slow down using brake pads only
+- Rear wheels: slow down using **brake pads + electric motor resistance**
+
+This creates an imbalance during braking.
+
+The physics shows:
+
+When you brake hard, the car’s weight shifts **forward**.
+This means:
+- Front tires get **more grip**
+- Rear tires get **less grip**
+
+So you now have a dangerous situation:
+
+The tires with **the least grip** (rear tires)
+are being asked to **do the most braking** (pads + regen motor).
+
+If the motor resists even a little too much:
+- Rear wheels slow down faster than the front
+- Rear tires lose grip
+- The back of the car starts to slide or spin
+
+That is why regen is risky in a race car because **it only acts on the weakest end of the car during braking**.
+
+This is why “brake blending” is so critical.
+
+---
+
+### 5.3 What is brake blending? (And why it’s insanely hard)
+
+The driver presses **one brake pedal**.
+
+But the car is actually doing two different types of braking:
+
+1) Regular hydraulic brakes (pads and discs)
+2) Electric regenerative braking (MGU-K)
+
+The computer must blend them perfectly so the driver feels:
+One smooth, predictable stopping force
+
+If the blend is even a little bit off:
+- Braking feels weird
+- Rear slides, locks, or steps out
+- Driver loses confidence
+- Lap time dies (or wall is introduced to side of car)
+
+This blending has to be adjusted constantly based on:
+- Tire grip
+- Speed
+- Battery charge
+- Temperature
+- Track surface
+- Driver input
+
+That is why dozens of engineers obsess over this system.
+
+---
+
+### 5.4 The machines that do the energy recovery
+
+Now that regen is clear, here are the parts that do it:
+
+- **MGU-K (Motor Generator Unit – Kinetic)**  
+  Connected to the drivetrain and rear wheels.
+  - On braking → it becomes a generator and charges the battery
+  - On acceleration → it becomes a motor and boosts the car
+
+- **MGU-H (Motor Generator Unit – Heat)** *(used in current system, removed in 2026)*  
+  Connected to the turbo.
+  - It harvests energy from hot exhaust
+  - It can send energy:
+    - to the battery, or
+    - directly to the MGU-K (skipping the battery and reducing losses)
+
+This is why F1 is so special:  
+It is stealing energy from **both** braking **and** exhaust heat — two places normal cars completely waste.
+
+---
+
+### 5.5 How much energy can actually be recovered?
 
 On a typical lap:
 
-- **MGU-K can recover on the order of ~20% of braking energy**, sometimes more on very “stop-start” tracks with many slow corners. :contentReference[oaicite:7]{index=7}  
+- The MGU-K can recover about **20% of the car’s braking energy** on average
+- Some tracks allow more (lots of slow corners and opportunities to brake)
+- Some tracks allow less (fast flowing corners or longer straights)
 
-Limits come from:
+But recovery is always limited by:
 
-- **Regulations** (max power / energy per lap).
-- **Grip and stability** – too much regen on rear wheels can make the car unstable.
-- **Battery size and temperature** – you can’t shove infinite energy into a hot, full battery.
+- Tire grip (too much regen = spin risk)
+- Battery temperature and capacity
+- Rules set by the FIA
+- Overall balance of the car
 
-Track layout matters:
+---
 
-- More tight corners → more braking → more recovery potential.
-- More high-speed sweeps → less heavy braking → less to harvest. :contentReference[oaicite:8]{index=8}  
+### 5.6 The strategy problem: harvest, save… or smash the boost button
 
-### 5.2 Where does recovered energy go?
+The harvested energy is stored in the battery. That stored energy is the car’s **secret weapon**.
 
-Options:
+It can be used to:
 
-1. **Into the battery**  
-   - Flexible: can be used later in the lap wherever you want.
-   - But every charge/discharge cycle creates **losses and heat**.
+- Boost out of corners
+- Defend a position
+- Attack for an overtake
+- Reduce fuel use by backing off the engine
 
-2. **Direct transfer (exhaust → MGU-K)** (in the MGU-H era)  
-   - Skips the battery, so fewer losses and less battery wear.
-   - Simulation studies suggest this can cut battery cycling losses by up to **~8%**. :contentReference[oaicite:9]{index=9}  
-   - But needs very careful control of turbo speed, engine torque, and driver demands.
+Under the new rules, the driver has access to a **manual electric boost button** (often called “overtake” mode). 
 
-In 2026, with **MGU-H removed** but more electric power overall, the battery + MGU-K side becomes even more central. :contentReference[oaicite:10]{index=10}  
+The important part is:
+The driver does NOT directly control how much power comes from the battery.  
+They only **request it**. The car’s computer still decides the exact amount, based on:
 
-### 5.3 Control strategy: when to harvest, when to spend
+- How full the battery is
+- How hot the battery and motor are
+- What the rules allow
+- Whether giving full boost is safe
 
-You can’t always do everything at once:
+So the driver’s role becomes **strategic**, not technical.
 
-- If you **harvest hard** into a corner (lots of regen), you:
-  - Gain more energy.
-  - Risk upsetting the car’s balance under braking.
+They have to decide things like:
 
-- If you **boost hard** out of a corner, you:
-  - Go faster.
-  - Burn through your stored energy and heat up the battery.
+- Do I use boost now to pass this car?
+- Or do I save it for the long straight in Sector 3?
+- Do I defend my position, or gamble it for later?
 
-The car’s control system has to constantly answer questions like:
+Meanwhile, the system is deciding:
 
-- “Is this the right lap to save energy for an overtake?”
-- “Should we harvest a bit more now to have extra boost later on the straight?”
-- “Should we back off harvesting because battery temp is high?”
+- Do we recover MORE energy into the battery right now?
+- Or do we reduce regen to protect rear grip and stability?
+- Do we allow maximum boost?
+- Or do we limit it because the battery is too hot?
 
-### 5.4 Trade-offs and edge cases
-
-- **Too much regen**:
-  - Rear wheels might lock or feel unstable.
-  - Driver confidence drops; lap time suffers.
-
-- **Too little regen**:
-  - You’re literally throwing energy away as heat.
-  - You arrive on the straight with less boost than rivals.
-
-- **Battery health vs performance**:
-  - Hammer the battery every lap → more heat and wear.
-  - Protect the battery too much → give away performance.
-
-Energy recovery is like **budgeting money**:
-- Spend too fast → fun now, pain later.
-- Never spend → always safe, but you never win.
+This turns energy recovery into a **resource management game** shared between:
+- The driver (when to use it)
+- The engineers (how it’s programmed)
+- The car’s computer (how it’s executed)
 
 ---
 
