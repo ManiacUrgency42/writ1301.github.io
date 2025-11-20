@@ -480,11 +480,10 @@ This turns energy recovery into a **resource management game** shared between:
 
 ---
 
-<!-- INSERT IMAGE: corner energy recovery diagram -->
 
-![Corner energy flow: brake, harvest, boost](/assets/img/corner-energy-recovery.png)
+![Cool Sketch of Mercedes Car from Mercedes-AMG Petronas F1 Team](/assets/Saudi-Arabia-Circuit.jpg)
 
-*Into the corner: you harvest. Out of the corner: you spend. The magic is in the timing.*
+
 
 ---
 
