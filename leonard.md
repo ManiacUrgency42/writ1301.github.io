@@ -576,8 +576,6 @@ The engineering question is:
 
 ![Powertrain system interactions](/assets/img/system-interactions.png)
 
-*Change fuel → change combustion → change heat → change cooling → change drag → change lap time. Everything is connected.*
-
 ---
 
 ## 7. Why This Matters Beyond F1
