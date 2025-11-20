@@ -26,15 +26,13 @@ This page walks through the main design challenges explained in **plain English*
 
 ---
 
-<!-- INSERT IMAGE: Hero shot of an F1 car with simple labels -->
+<!-- Diagram of an F1 car V6 powertrain with labels from: https://global.honda/en/tech/motorsports/Formula-1/Powertrain_V6_power_unit/-->
 
-![F1 powertrain hero diagram](/assets/img/hero-powertrain.png)
-
-*A modern F1 car is basically a rolling physics experiment: engine, battery, motors, fuel, and a lot of heat.*
+![F1 V6 powertrain diagram with labels](/assets/img/hero-powertrain.png)
 
 ---
 
-## 1. Quick Primer: What Is an F1 Powertrain?
+## 1. What Is an F1 Powertrain?
 
 ### 1.1 “Powertrain” in one sentence
 
@@ -45,7 +43,7 @@ Think of it as the car’s **muscle system**:
 - The **battery + electric motor** is the electric-muscle part.
 - The **control electronics** are the brain that coordinates them.
 
-### 1.2 The main pieces (in human terms)
+### 1.2 The main pieces
 
 In the current hybrid era, an F1 power unit has:
 
@@ -69,7 +67,7 @@ In the current hybrid era, an F1 power unit has:
   High-power lithium-ion pack. Not huge like a road EV, but it can deliver and absorb big bursts of power.
 
 - **Power Electronics / Control Unit**  
-  The “traffic cop” that decides how electricity flows between battery, MGU-K, MGU-H, and sometimes directly from exhaust to wheels.
+  Decides how electricity flows between battery, MGU-K, MGU-H, and sometimes directly from exhaust to wheels.
 
 ### 1.3 Old vs new balance
 
@@ -103,7 +101,7 @@ It means that, over a year, the **total CO₂ released** is **balanced** by:
 - Using **sustainable fuel** made from carbon that was already in the cycle (air, waste, biomass).
 - Offsetting the rest with other projects.
 
-For the **powertrain**, the big idea is:
+For the **powertrain**, that means:
 
 > “No **new** fossil carbon from underground. The carbon in the fuel should come from stuff that was already above ground.”
 
