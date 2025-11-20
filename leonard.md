@@ -10,10 +10,6 @@ permalink: /leonard/
 
 ![Diagram of F1 hybrid powertrain](assets/Motor-Generator-Unit-Diagram.jpg)
 
----
-Fast *and* Net-Zero? The Future F1 Powertrain
----
-
 # Can Formula 1 Be Fast *and* Net-Zero?
 
 By 2030, Formula 1 wants to be **net-zero carbon**.  
