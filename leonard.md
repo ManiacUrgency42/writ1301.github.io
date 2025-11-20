@@ -481,9 +481,9 @@ This turns energy recovery into a **resource management game** shared between:
 ---
 
 
-![Cool Sketch of Mercedes Car from Mercedes-AMG Petronas F1 Team](/assets/Saudi-Arabia-Circuit.jpg)
+![Jeddah Corniche Circuit in Saudi Arabia](/assets/Saudi-Arabia-Circuit.jpg)
 
-
+> Jeddah Corniche Circuit in Saudi Arabia
 
 ---
 
