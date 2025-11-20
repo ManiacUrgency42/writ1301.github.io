@@ -8,8 +8,6 @@ permalink: /leonard/
 
 ## Leonard
 
-![Diagram of F1 hybrid powertrain](assets/Motor-Generator-Unit-Diagram.jpg)
-
 # Can Formula 1 Be Fast *and* Net-Zero?
 
 By 2030, Formula 1 wants to be **net-zero carbon**.  
@@ -28,7 +26,7 @@ This page walks through the main design challenges explained in **plain English*
 
 <!-- Diagram of an F1 car V6 powertrain with labels from: https://global.honda/en/tech/motorsports/Formula-1/Powertrain_V6_power_unit/-->
 
-![F1 V6 powertrain diagram with labels](/assets/img/hero-powertrain.png)
+![F1 V6 powertrain diagram with labels](/assets/V6-Powertrain.png)
 
 ---
 
@@ -411,6 +409,8 @@ That is why dozens of engineers obsess over this system.
 ### 5.4 The machines that do the energy recovery
 
 Now that regen is clear, here are the parts that do it:
+
+![Diagram of F1 hybrid powertrain](assets/Motor-Generator-Unit-Diagram.jpg)
 
 - **MGU-K (Motor Generator Unit – Kinetic)**  
   Connected to the drivetrain and rear wheels.
