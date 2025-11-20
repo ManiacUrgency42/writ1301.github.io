@@ -71,10 +71,10 @@ In the current hybrid era, an F1 power unit has:
 
 Right now, roughly:
 - **~80%** of power: from the engine.
-- **~20%**: from the electric side. :contentReference[oaicite:0]{index=0}  
+- **~20%**: from the electric side. 
 
 From **2026**, the rules push toward:
-- **~50% engine, ~50% electric**, plus 100% sustainable fuel. :contentReference[oaicite:1]{index=1}  
+- **~50% engine, ~50% electric**, plus 100% sustainable fuel. 
 
 That means the electric side is no longer just “extra boost” – it’s half the show.
 
@@ -104,13 +104,13 @@ For the **powertrain**, that means:
 “**Drop-in**” means the fuel:
 
 - Can be **used in normal-style gasoline engines** with only small tweaks.
-- Can flow through **existing fuel distribution** systems (tanks, pipes, trucks). :contentReference[oaicite:2]{index=2}  
+- Can flow through **existing fuel distribution** systems (tanks, pipes, trucks).
 
 Where can this carbon-neutral fuel come from?
 
 - **Captured CO₂** from the air or industrial fumes.
 - **Waste biomass** (like leftovers from farming, not food crops).
-- **Municipal waste** (garbage that would otherwise rot or be burned). :contentReference[oaicite:3]{index=3}  
+- **Municipal waste** (garbage that would otherwise rot or be burned).
 
 The CO₂ that comes out the **exhaust** was already in the atmosphere or waste stream recently, so you’re not adding new CO₂ from underground oil.
 
@@ -222,7 +222,7 @@ A few ways to mess this up:
 
 Every time you **convert energy**, you make **heat**.  
 
-Modern F1 power units can hit **~50% thermal efficiency**, which is insanely high, but that also means the **other half** of the fuel’s energy is mostly heat. :contentReference[oaicite:4]{index=4}  
+Modern F1 power units can hit **~50% thermal efficiency**, which is insanely high, but that also means the **other half** of the fuel’s energy is mostly heat.   
 
 Now add:
 
@@ -261,7 +261,7 @@ The catch:
 - More **regenerative breaking** → more hot brakes, more hot MGU-K, more hot electronics.
 - **Sustainable fuel** may change:
   - Exhaust temperature.
-  - How heat is distributed between engine, turbo, and exhaust. :contentReference[oaicite:5]{index=5}  
+  - How heat is distributed between engine, turbo, and exhaust. 
 
 That means:
 
@@ -580,7 +580,7 @@ Things that can trickle down:
   - Smarter coolant routing and control.
 
 - **Sustainable fuels**  
-  - If F1 proves that truly high-performance engines can run on **drop-in sustainable fuel**, that’s a big data point for aviation, shipping, and legacy cars that can’t easily go full EV. :contentReference[oaicite:11]{index=11}  
+  - If F1 proves that truly high-performance engines can run on **drop-in sustainable fuel**, that’s a big data point for aviation, shipping, and legacy cars that can’t easily go full EV. 
 
 ### 7.2 F1 as a “lab on wheels”
 
@@ -597,7 +597,7 @@ If it survives **here**, it might be overbuilt (in a good way) for your daily co
 
 Honest answer:
 
-- The **fuel side** can be net-zero-ish if the whole production chain is truly green, but it’s expensive and hard to scale. :contentReference[oaicite:12]{index=12}  
+- The **fuel side** can be net-zero-ish if the whole production chain is truly green, but it’s expensive and hard to scale. 
 - The **electrification** push clearly helps efficiency.
 - The rest of F1’s carbon footprint (freight, flights, factories) also matters a lot.
 
