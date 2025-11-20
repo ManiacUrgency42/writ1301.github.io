@@ -392,7 +392,7 @@ That is why dozens of engineers obsess over this system.
 
 ### 5.4 The machines that do the energy recovery
 
-Now that regen is clear, here are the parts that do it:
+Here are the parts that do it regen:
 
 ![Diagram of F1 hybrid powertrain](assets/Motor-Generator-Unit-Diagram.jpg)
 
@@ -482,10 +482,6 @@ This turns energy recovery into a **resource management game** shared between:
 ---
 
 ## 6. Putting It All Together: System-Level Trade-Offs
-
-The nasty part is: all these things interact.
-
-Change one knob, three others move.
 
 ### 6.1 Scenario 1 – Hot race, twisty track
 
@@ -595,7 +591,7 @@ Honest answer:
 
 So “net-zero and fast” is:
 
-- Not pure marketing fluff.
+- Not pure marketing.
 - Not magically solved.
 - A **huge optimization problem** across technology, cost, and rules.
 
