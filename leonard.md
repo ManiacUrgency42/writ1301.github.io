@@ -11,7 +11,7 @@ permalink: /leonard/
 ![Diagram of F1 hybrid powertrain](assets/Motor-Generator-Unit-Diagram.jpg)
 
 ---
-title: Fast *and* Net-Zero? The Future F1 Powertrain
+Fast *and* Net-Zero? The Future F1 Powertrain
 ---
 
 # Can Formula 1 Be Fast *and* Net-Zero?
