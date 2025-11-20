@@ -18,10 +18,7 @@ From 2026, the cars get a new kind of **hybrid powertrain** that:
 - Uses **100% “drop-in” sustainable fuel** (synthetic / bio-based fuel that can run in normal-style engines).
 - Gets about **half its power from electricity** and half from the fuel-burning engine.
 
-That sounds like magic: *“Same crazy speed, but greener, please.”*  
-Under the skin, it’s a brutal engineering puzzle.
-
-This page walks through the main design challenges in **plain language**:
+This page walks through the main design challenges explained in **plain English**:
 
 - How the **engine and electric side share power**.
 - How the car **keeps everything cool**.
