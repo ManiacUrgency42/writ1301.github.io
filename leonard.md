@@ -632,8 +632,6 @@ What’s cool is that:
 
 <!-- INSERT IMAGE: Tech transfer from F1 to the world -->
 
-![Tech transfer from F1 to road and air](/assets/img/tech-transfer.png)
-
-*Ideas don’t stay on the grid. Hybrid control, cooling solutions, and fuels can ripple outward.*
+![Cool Sketch of Mercedes Car from Mercedes-AMG Petronas F1 Team](/assets/img/tech-transfer.png)
 
 
