@@ -405,6 +405,8 @@ Here are the parts that do it regen:
 
 ![Diagram of F1 hybrid powertrain](assets/Motor-Generator-Unit-Diagram.jpg)
 
+> Diagram of MGU-K and MGU-H (Honda Motor Co., Ltd., n.d.).
+
 - **MGU-K (Motor Generator Unit – Kinetic)**  
   Connected to the drivetrain and rear wheels.
   - On braking → it becomes a generator and charges the battery
@@ -486,7 +488,7 @@ This turns energy recovery into a **resource management game** shared between:
 
 ![Jeddah Corniche Circuit in Saudi Arabia](/assets/Saudi-Arabia-Circuit.jpg)
 
-> Jeddah Corniche Circuit in Saudi Arabia
+> Jeddah Corniche Circuit in Saudi Arabia (Mercedes-Benz Archive, n.d.).
 
 ---
 
@@ -631,5 +633,7 @@ Honda Motor Co., Ltd. (n.d.). F1 hybrid power unit schematic [Image]. Honda Glob
 
 ADT Esports Academy. (n.d.). Everything you need to know about ERS in F1 24 [Diagram]. ADT Esports Academy. https://adtesportsacademy.com/everything-you-need-to-know-about-ers-in-f1-24/
 
+Honda Motor Co., Ltd. (n.d.). F1 hybrid power unit: MGU-H / MGU-K schematic [Image]. Honda Global. https://global.honda/en/tech/motorsports/Formula-1/Powertrain_MGU-H_MGU-K/
 
+Mercedes-Benz Archive. (n.d.). 2025 Saudi Arabian Grand Prix – Track Map [Image]. Mercedes-Benz Archive. https://mercedes-benz-archive.com/marsF1/en/instance/picture/ENGLISH-2025-Saudi-Arabian-Grand-Prix---Track-Map.xhtml?oid=193919548
 
