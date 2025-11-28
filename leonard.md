@@ -29,7 +29,8 @@ This page walks through the main design challenges explained in **plain English*
 
 ![Cool Sketch of Mercedes Car from Mercedes-AMG Petronas F1 Team](/assets/Cool-Mercedes-F1-Car-Sketch.jpg)
 
-> Sketch of the F1 Mercedes-AMG from official Mercedes-AMG social media page
+> Sketch of the F1 Mercedes-AMG from official Mercedes-AMG social media page (Mercedes-AMG Petronas Formula One Team, 2024).
+
 ---
 
 ## 1. What Is an F1 Powertrain?
@@ -624,5 +625,5 @@ Red Bull Racing. (2024). Formula One: New rules and regulations for the 2026 sea
 
 Racecar Engineering. (2024, June 6). FIA announces details of 2026 Formula 1 technical regulations. https://www.racecar-engineering.com/articles/f1/fia-announces-details-of-2026-formula-1-technical-regulations/
 
-
+Mercedes-AMG Petronas Formula One Team. (2024, August 7). Wallpaper Wednesday is back! W15 Blueprint edition [Image]. Facebook. https://www.facebook.com/](https://www.facebook.com/photo.php?fbid=904789215025949&id=100064846356234&set=a.626736462831227
 
