@@ -86,7 +86,7 @@ That means the electric side is no longer just “extra boost” – it’s half
 
 ![F1 V6 powertrain diagram with labels](/assets/V6-Powertrain.jpg)
 
-> V6 Powertrain by Honda
+> V6 Powertrain diagram (Honda Motor Co., Ltd., n.d.).
 ---
 
 ## 2. What “Net-Zero” and “Drop-In Sustainable Fuel” Actually Mean
@@ -626,4 +626,7 @@ Red Bull Racing. (2024). Formula One: New rules and regulations for the 2026 sea
 Racecar Engineering. (2024, June 6). FIA announces details of 2026 Formula 1 technical regulations. https://www.racecar-engineering.com/articles/f1/fia-announces-details-of-2026-formula-1-technical-regulations/
 
 Mercedes-AMG Petronas Formula One Team. (2024, August 7). Wallpaper Wednesday is back! W15 Blueprint edition [Image]. Facebook. https://www.facebook.com/](https://www.facebook.com/photo.php?fbid=904789215025949&id=100064846356234&set=a.626736462831227
+
+Honda Motor Co., Ltd. (n.d.). F1 hybrid power unit schematic [Image]. Honda Global. https://global.honda/en/tech/motorsports/Formula-1/Powertrain_V6_power_unit/
+
 
