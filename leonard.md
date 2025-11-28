@@ -223,7 +223,7 @@ A few ways to mess this up:
 
 ![F1 hybrid powertrain blocks](/assets/ERS-Austria-Qualifying-Lap.jpg)
 
-> Energy Recovery of Austria Qualifying Lap
+> Energy Recovery of Austria Qualifying Lap ((ADT Esports Academy, n.d.).
 
 ---
 
@@ -628,5 +628,8 @@ Racecar Engineering. (2024, June 6). FIA announces details of 2026 Formula 1 tec
 Mercedes-AMG Petronas Formula One Team. (2024, August 7). Wallpaper Wednesday is back! W15 Blueprint edition [Image]. Facebook. https://www.facebook.com/](https://www.facebook.com/photo.php?fbid=904789215025949&id=100064846356234&set=a.626736462831227
 
 Honda Motor Co., Ltd. (n.d.). F1 hybrid power unit schematic [Image]. Honda Global. https://global.honda/en/tech/motorsports/Formula-1/Powertrain_V6_power_unit/
+
+ADT Esports Academy. (n.d.). Everything you need to know about ERS in F1 24 [Diagram]. ADT Esports Academy. https://adtesportsacademy.com/everything-you-need-to-know-about-ers-in-f1-24/
+
 
 
